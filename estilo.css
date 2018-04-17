@@ -4,6 +4,11 @@ body {
 	font-weight: lighter;
      }
 
+     p , li {
+     font-size: 0.8rem;
+     color: #2c3435;
+     }
+
 .col-md-8 , .col-md-offset-1 h2 {
 	text-align: center;
 }
@@ -25,6 +30,22 @@ body {
 	text-align: center;
 	position: absolute;
 	z-index: 1;
+}
+
+.columna-derecha , .columna-izquierda{
+	text-align: left;
+	padding: 1.2vw;
+	box-sizing: border-box;
+}
+
+.col-md-8, .col-md-offset-1 h2 {
+    margin-bottom: 4vw;
+}
+
+
+h3 {
+	margin: 0px;
+	color: #f0563e;
 }
 
 
