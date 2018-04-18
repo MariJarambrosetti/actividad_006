@@ -21,10 +21,6 @@ body {
 	margin-bottom: 0px;
 }
 
-.educacion {
-	margin-bottom: 1vw;
-}
-
 .rectangle {
 	position: relative; /* Propiedad obligatoria*/
 }
@@ -118,8 +114,16 @@ h3 {
 	font-weight: bold;
 }
 
-.skills {
+.educacion, .skills, .experiencia, .idiomas {
 	margin-bottom: 1vw;
+}
+
+.descripcion-2 h5 {
+	margin-top: 0px;
+}
+
+.empresa p {
+	margin: 0px;
 }
 
 
