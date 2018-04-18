@@ -86,8 +86,30 @@ h3 {
 .barra {
 	background-color: #f0563e;
 	color: white;
-	width: 97%;
+	padding-top: 0.1vw;
+	padding-bottom: 0.1vw;
 	padding-left: 1vw;
+	margin-bottom: 0.5VW;
+}
+
+.illustrator {
+	width: 97%;
+}
+
+.photoshop {
+	width: 90%;
+}
+
+.in-design {
+	width: 80%;
+}
+
+.html {
+	width: 50%;
+}
+
+.css {
+	width: 50%;
 }
 
 .barra p {
