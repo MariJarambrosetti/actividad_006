@@ -9,6 +9,37 @@ body {
      color: #2c3435;
      }
 
+.descripcion {
+	background-color: #ededed;
+	margin-bottom: 1vw;
+	padding-left: 1vw;
+	box-sizing: border-box;
+}
+
+.descripcion h5 {
+	margin-top: 1vw;
+	margin-bottom: 0px;
+}
+
+.educacion {
+	margin-bottom: 1vw;
+}
+
+.rectangle {
+	position: relative; /* Propiedad obligatoria*/
+}
+.rectangle::before {
+	content: '';
+	position: absolute;
+	top: 5px;
+	left: -10px;
+	width: 0px;
+	height: 0px;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-right: 10px solid #ededed;
+}
+
 .col-md-8 , .col-md-offset-1 h2 {
 	text-align: center;
 }
@@ -46,6 +77,10 @@ body {
 h3 {
 	margin: 0px;
 	color: #f0563e;
+}
+
+.col-md-1, .año  h5{
+	margin: 0px;
 }
 
 
